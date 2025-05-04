@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="formAdmin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="formAlbum.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="formAllCards.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="formCrudPack.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="formHome.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="formLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormRegis.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="formTopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
