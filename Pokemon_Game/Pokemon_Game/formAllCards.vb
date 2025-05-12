@@ -49,8 +49,9 @@ Public Class formAllCards
                     .Size = New Size(130, 20)
                 }
 
-                Dim lblRarity As New Label With {
-                    .Text = "Rarity: " & RD("rarity").ToString(),
+                Dim kategori As String = If(IsDBNull(RD("kategori")), "Tidak Ada", RD("kategori").ToString())
+                Dim lblKategori As New Label With {
+                    .Text = "Kategori: " & kategori,
                     .Font = New Font("Segoe UI", 9),
                     .Location = New Point(10, 170),
                     .Size = New Size(130, 20)
@@ -59,7 +60,7 @@ Public Class formAllCards
                 cardPanel.Controls.Add(pb)
                 cardPanel.Controls.Add(lblName)
                 cardPanel.Controls.Add(lblType)
-                cardPanel.Controls.Add(lblRarity)
+                cardPanel.Controls.Add(lblKategori)
 
                 pnlCardList.Controls.Add(cardPanel)
             End While

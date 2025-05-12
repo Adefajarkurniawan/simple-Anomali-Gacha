@@ -25,7 +25,9 @@ Public Class formBeliKartu
                     {"id", RD("id").ToString()},
                     {"name", RD("name").ToString()},
                     {"image_path", RD("image_path").ToString()},
-                    {"price", RD("price").ToString()}
+                    {"price", RD("price").ToString()},
+                    {"type", RD("type").ToString()},
+                    {"kategori", RD("kategori").ToString()}
                 }
                 cardList.Add(cardData)
             End While
@@ -34,14 +36,14 @@ Public Class formBeliKartu
             ' Tampilkan kartu dari list
             For Each card In cardList
                 Dim cardPanel As New Panel With {
-                    .Size = New Size(150, 240),
+                    .Size = New Size(180, 330),
                     .BackColor = Color.WhiteSmoke,
-                    .Margin = New Padding(10),
+                    .Margin = New Padding(15),
                     .BorderStyle = BorderStyle.FixedSingle
                 }
 
                 Dim pb As New PictureBox With {
-                    .Size = New Size(120, 100),
+                    .Size = New Size(150, 150),
                     .Location = New Point(15, 10),
                     .SizeMode = PictureBoxSizeMode.StretchImage,
                     .BackColor = Color.Gainsboro
@@ -57,8 +59,26 @@ Public Class formBeliKartu
                     .Font = New Font("Segoe UI", 10.0F, FontStyle.Bold),
                     .AutoSize = False,
                     .TextAlign = ContentAlignment.MiddleCenter,
-                    .Size = New Size(120, 20),
-                    .Location = New Point(15, 120)
+                    .Size = New Size(150, 25),
+                    .Location = New Point(15, 170)
+                }
+
+                Dim lblType As New Label With {
+                    .Text = "Type: " & card("type"),
+                    .Font = New Font("Segoe UI", 9.0F),
+                    .AutoSize = False,
+                    .TextAlign = ContentAlignment.MiddleCenter,
+                    .Size = New Size(150, 20),
+                    .Location = New Point(15, 200)
+                }
+
+                Dim lblKategori As New Label With {
+                    .Text = "Kategori: " & card("kategori"),
+                    .Font = New Font("Segoe UI", 9.0F),
+                    .AutoSize = False,
+                    .TextAlign = ContentAlignment.MiddleCenter,
+                    .Size = New Size(150, 20),
+                    .Location = New Point(15, 225)
                 }
 
                 Dim lblPrice As New Label With {
@@ -66,14 +86,14 @@ Public Class formBeliKartu
                     .Font = New Font("Segoe UI", 9.0F),
                     .AutoSize = False,
                     .TextAlign = ContentAlignment.MiddleCenter,
-                    .Size = New Size(120, 20),
-                    .Location = New Point(15, 145)
+                    .Size = New Size(150, 20),
+                    .Location = New Point(15, 250)
                 }
 
                 Dim btnBuy As New Button With {
                     .Text = "Beli",
                     .Size = New Size(120, 30),
-                    .Location = New Point(15, 180)
+                    .Location = New Point(30, 275)
                 }
 
                 ' Menambahkan event handler untuk tombol Beli
@@ -81,6 +101,8 @@ Public Class formBeliKartu
 
                 cardPanel.Controls.Add(pb)
                 cardPanel.Controls.Add(lblName)
+                cardPanel.Controls.Add(lblType)
+                cardPanel.Controls.Add(lblKategori)
                 cardPanel.Controls.Add(lblPrice)
                 cardPanel.Controls.Add(btnBuy)
                 pnlAvailableCards.Controls.Add(cardPanel)

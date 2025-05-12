@@ -2,8 +2,6 @@
 Imports System.Drawing.Printing
 Imports System.IO
 
-
-
 Public Class formAlbum
     Dim currentIndex As Integer = 0
 
@@ -18,7 +16,7 @@ Public Class formAlbum
         Try
             ' Query untuk mengambil kartu milik user berdasarkan username saat ini
             Dim query As String = "
-            SELECT c.name, c.image_path, c.type, uc.Jumlah_Kartu
+            SELECT c.name, c.image_path, c.type, c.kategori, uc.Jumlah_Kartu
             FROM user_card uc
             JOIN users u ON uc.user_id = u.id
             JOIN cards c ON uc.card_id = c.id
@@ -32,7 +30,7 @@ Public Class formAlbum
 
             While RD.Read()
                 Dim cardPanel As New Panel With {
-                    .Size = New Size(150, 220),
+                    .Size = New Size(150, 240),
                     .BackColor = Color.WhiteSmoke,
                     .Margin = New Padding(10),
                     .BorderStyle = BorderStyle.FixedSingle
@@ -49,7 +47,6 @@ Public Class formAlbum
                 Dim imgPath = Path.Combine(Application.StartupPath, RD("image_path").ToString())
                 If File.Exists(imgPath) Then
                     pb.Image = Image.FromFile(imgPath)
-
                 End If
 
                 Dim lblName As New Label With {
@@ -72,6 +69,17 @@ Public Class formAlbum
                     .Location = New Point(15, 145)
                 }
 
+                ' Menambahkan label untuk kategori
+                Dim lblKategori As New Label With {
+                    .Text = "Kategori: " & RD("kategori").ToString(),
+                    .Font = New Font("Segoe UI", 9.0F),
+                    .ForeColor = Color.DarkRed,
+                    .AutoSize = False,
+                    .TextAlign = ContentAlignment.MiddleCenter,
+                    .Size = New Size(120, 20),
+                    .Location = New Point(15, 170)
+                }
+
                 Dim lblJumlah As New Label With {
                     .Text = "Jumlah: " & RD("Jumlah_Kartu").ToString(),
                     .Font = New Font("Segoe UI", 9.0F, FontStyle.Italic),
@@ -79,12 +87,13 @@ Public Class formAlbum
                     .AutoSize = False,
                     .TextAlign = ContentAlignment.MiddleCenter,
                     .Size = New Size(120, 20),
-                    .Location = New Point(15, 170)
+                    .Location = New Point(15, 195)
                 }
 
                 cardPanel.Controls.Add(pb)
                 cardPanel.Controls.Add(lblName)
                 cardPanel.Controls.Add(lblType)
+                cardPanel.Controls.Add(lblKategori)
                 cardPanel.Controls.Add(lblJumlah)
                 pnlCardAlbum.Controls.Add(cardPanel)
             End While
@@ -124,7 +133,7 @@ Public Class formAlbum
         y += 20
 
         koneksi()
-        CMD = New MySqlCommand("SELECT c.name, c.type, c.rarity, uc.jumlah_kartu, c.image_path FROM user_card uc JOIN cards c ON uc.card_id = c.id WHERE uc.user_id = (SELECT id FROM users WHERE username = @username)", CONN)
+        CMD = New MySqlCommand("SELECT c.name, c.type, c.kategori, uc.jumlah_kartu, c.image_path FROM user_card uc JOIN cards c ON uc.card_id = c.id WHERE uc.user_id = (SELECT id FROM users WHERE username = @username)", CONN)
         CMD.Parameters.AddWithValue("@username", currentUsername)
         RD = CMD.ExecuteReader()
 
@@ -149,7 +158,7 @@ Public Class formAlbum
             ' Mengambil informasi kartu
             Dim cardName As String = RD("name").ToString()
             Dim cardType As String = RD("type").ToString()
-            Dim cardRarity As String = RD("rarity").ToString()
+            Dim cardRarity As String = RD("kategori").ToString()
             Dim cardJumlah As String = RD("jumlah_kartu").ToString()
             Dim imgPath = Path.Combine(Application.StartupPath, RD("image_path").ToString())
 
@@ -169,7 +178,7 @@ Public Class formAlbum
             ' Menampilkan informasi kartu
             e.Graphics.DrawString("Nama: " & cardName, Flabel, Brushes.Black, x + 120, y + 10)
             e.Graphics.DrawString("Tipe: " & cardType, Flabel, Brushes.Black, x + 120, y + 35)
-            e.Graphics.DrawString("Rarity: " & cardRarity, Flabel, Brushes.Black, x + 120, y + 60)
+            e.Graphics.DrawString("Kategori: " & cardRarity, Flabel, Brushes.Black, x + 120, y + 60)
             e.Graphics.DrawString("Jumlah: " & cardJumlah, Flabel, Brushes.Black, x + 120, y + 85)
 
             ' Menambahkan border dan jarak antar kartu

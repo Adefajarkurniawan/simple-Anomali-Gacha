@@ -61,7 +61,7 @@ Public Class formRecycle
         Try
             ' Ambil kartu yang dimiliki user saat ini berdasarkan username
             CMD = New MySqlCommand("
-                SELECT c.id, c.name, c.image_path, c.price, uc.jumlah_kartu 
+                SELECT c.id, c.name, c.image_path, c.price, c.type, c.kategori, uc.jumlah_kartu 
                 FROM user_card uc 
                 JOIN cards c ON uc.card_id = c.id 
                 JOIN users u ON uc.user_id = u.id 
@@ -76,6 +76,8 @@ Public Class formRecycle
                     {"name", RD("name").ToString()},
                     {"image_path", RD("image_path").ToString()},
                     {"price", RD("price").ToString()},
+                    {"type", RD("type").ToString()},
+                    {"kategori", RD("kategori").ToString()},
                     {"jumlah_kartu", RD("jumlah_kartu").ToString()}
                 }
                 cardList.Add(cardData)
@@ -85,7 +87,7 @@ Public Class formRecycle
             ' Tampilkan kartu dari list
             For Each card In cardList
                 Dim cardPanel As New Panel With {
-                    .Size = New Size(150, 280),
+                    .Size = New Size(150, 300),
                     .BackColor = Color.WhiteSmoke,
                     .Margin = New Padding(10),
                     .BorderStyle = BorderStyle.FixedSingle
@@ -112,9 +114,27 @@ Public Class formRecycle
                     .Location = New Point(15, 120)
                 }
 
-                ' Hitung harga recycle (50% dari harga beli)
-                Dim recyclePrice As Integer = CInt(card("price")) / 2
+                Dim lblType As New Label With {
+                    .Text = "Type: " & card("type"),
+                    .Font = New Font("Segoe UI", 9.0F),
+                    .ForeColor = Color.DarkBlue,
+                    .AutoSize = False,
+                    .TextAlign = ContentAlignment.MiddleCenter,
+                    .Size = New Size(120, 20),
+                    .Location = New Point(15, 145)
+                }
 
+                Dim lblKategori As New Label With {
+                    .Text = "Kategori: " & card("kategori"),
+                    .Font = New Font("Segoe UI", 9.0F),
+                    .ForeColor = Color.DarkGreen,
+                    .AutoSize = False,
+                    .TextAlign = ContentAlignment.MiddleCenter,
+                    .Size = New Size(120, 20),
+                    .Location = New Point(15, 170)
+                }
+
+                Dim recyclePrice As Integer = CInt(card("price")) / 2
                 Dim lblRecyclePrice As New Label With {
                     .Text = "Recycle: " & recyclePrice & " coins",
                     .Font = New Font("Segoe UI", 9.0F),
@@ -122,24 +142,13 @@ Public Class formRecycle
                     .AutoSize = False,
                     .TextAlign = ContentAlignment.MiddleCenter,
                     .Size = New Size(120, 20),
-                    .Location = New Point(15, 145)
-                }
-
-                ' Menampilkan jumlah kartu yang dimiliki
-                Dim lblJumlah As New Label With {
-                    .Text = "Jumlah: " & card("jumlah_kartu"),
-                    .Font = New Font("Segoe UI", 9.0F, FontStyle.Italic),
-                    .ForeColor = Color.DarkBlue,
-                    .AutoSize = False,
-                    .TextAlign = ContentAlignment.MiddleCenter,
-                    .Size = New Size(120, 20),
-                    .Location = New Point(15, 170)
+                    .Location = New Point(15, 195)
                 }
 
                 Dim btnRecycle As New Button With {
                     .Text = "Recycle",
                     .Size = New Size(120, 30),
-                    .Location = New Point(15, 210)
+                    .Location = New Point(15, 230)
                 }
 
                 ' Event handler untuk tombol Recycle
@@ -147,8 +156,9 @@ Public Class formRecycle
 
                 cardPanel.Controls.Add(pb)
                 cardPanel.Controls.Add(lblName)
+                cardPanel.Controls.Add(lblType)
+                cardPanel.Controls.Add(lblKategori)
                 cardPanel.Controls.Add(lblRecyclePrice)
-                cardPanel.Controls.Add(lblJumlah)
                 cardPanel.Controls.Add(btnRecycle)
                 pnlCardList.Controls.Add(cardPanel)
             Next

@@ -7,7 +7,6 @@ Partial Class formHome
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(formHome))
         lblCoins = New Label()
         picCoin = New PictureBox()
-        btnClosed = New Button()
         btnMyAlbum = New Button()
         btnAllCards = New Button()
         pnlPacksContainer = New Panel()
@@ -55,7 +54,7 @@ Partial Class formHome
         lblCoins.AutoSize = True
         lblCoins.Font = New Font("Segoe UI", 10.0F, FontStyle.Bold)
         lblCoins.ForeColor = Color.White
-        lblCoins.Location = New Point(61, 19)
+        lblCoins.Location = New Point(95, 20)
         lblCoins.Name = "lblCoins"
         lblCoins.Size = New Size(73, 23)
         lblCoins.TabIndex = 0
@@ -70,22 +69,6 @@ Partial Class formHome
         picCoin.SizeMode = PictureBoxSizeMode.StretchImage
         picCoin.TabIndex = 1
         picCoin.TabStop = False
-        ' 
-        ' btnClosed
-        ' 
-        btnClosed.BackColor = Color.Transparent
-        btnClosed.FlatAppearance.BorderSize = 0
-        btnClosed.FlatAppearance.MouseDownBackColor = Color.Transparent
-        btnClosed.FlatAppearance.MouseOverBackColor = Color.Transparent
-        btnClosed.FlatStyle = FlatStyle.Flat
-        btnClosed.ForeColor = Color.Transparent
-        btnClosed.Image = CType(resources.GetObject("btnClosed.Image"), Image)
-        btnClosed.Location = New Point(1142, 12)
-        btnClosed.Name = "btnClosed"
-        btnClosed.Size = New Size(46, 37)
-        btnClosed.TabIndex = 12
-        btnClosed.TabStop = False
-        btnClosed.UseVisualStyleBackColor = False
         ' 
         ' btnMyAlbum
         ' 
@@ -286,7 +269,7 @@ Partial Class formHome
         btnTopup.FlatStyle = FlatStyle.Flat
         btnTopup.ForeColor = Color.Transparent
         btnTopup.Image = CType(resources.GetObject("btnTopup.Image"), Image)
-        btnTopup.Location = New Point(153, 11)
+        btnTopup.Location = New Point(44, 12)
         btnTopup.Name = "btnTopup"
         btnTopup.Size = New Size(46, 37)
         btnTopup.TabIndex = 21
@@ -306,7 +289,6 @@ Partial Class formHome
         Controls.Add(Panel1)
         Controls.Add(PictureBox1)
         Controls.Add(pnlPacksContainer)
-        Controls.Add(btnClosed)
         Controls.Add(picCoin)
         Controls.Add(lblCoins)
         ForeColor = Color.Coral
@@ -333,7 +315,6 @@ Partial Class formHome
 
     Friend WithEvents lblCoins As Label
     Friend WithEvents picCoin As PictureBox
-    Friend WithEvents btnClosed As Button
     Friend WithEvents btnMyAlbum As Button
     Friend WithEvents btnAllCards As Button
     Friend WithEvents pnlPacksContainer As Panel

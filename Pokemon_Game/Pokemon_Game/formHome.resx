@@ -121,16 +121,6 @@
     <value>False</value>
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="btnClosed.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DAAACwwBP0AiyAAAANtJREFUSEvtltEOgyAMRf2Jmfn/n+Oetod9zl26UEcKlIuQmExP4ou0PRQhMk0X
-        pwTADOARntmO14jyVzofwA3AEz/eABYbV2J3fpip5cXMPHQqsZbVxiYUxIIrd6QCJbZLFZNdNiLnbnOy
-        EIU2ORHLSRWi4ELEtEmVyneT995YcT9QVLrKsb9TS4N8nFQh5OOlAilOjloXhFQZJ2+QKv3yQ45TpdPv
-        RiJi2jonCm67l4jl5ESh5MgQOXX5kb/FnNiVKo6cEttlyy5via78MHO5qPGXtYje/Iv/4APIApP3Taq9
-        WwAAAABJRU5ErkJggg==
-</value>
-  </data>
   <data name="PictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAYAAAA4qEECAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL

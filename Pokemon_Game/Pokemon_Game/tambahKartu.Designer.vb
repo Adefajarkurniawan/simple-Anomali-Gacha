@@ -4,7 +4,6 @@ Partial Class tambahKartu
 
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(tambahKartu))
-        lblTitle = New Label()
         txtName = New TextBox()
         txtType = New TextBox()
         txtRarity = New TextBox()
@@ -14,32 +13,25 @@ Partial Class tambahKartu
         btnDelete = New Button()
         lstCards = New ListView()
         pnlControls = New Panel()
+        txtPrice = New TextBox()
         btnUpload = New Button()
         PictureBox1 = New PictureBox()
         Panel1 = New Panel()
+        cmbKategori = New ComboBox()
         FolderBrowserDialog1 = New FolderBrowserDialog()
         Button2 = New Button()
         panelHeader = New Panel()
         pnlControls.SuspendLayout()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
+        panelHeader.SuspendLayout()
         SuspendLayout()
-        ' 
-        ' lblTitle
-        ' 
-        lblTitle.Font = New Font("Comic Sans MS", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        lblTitle.ForeColor = Color.White
-        lblTitle.Location = New Point(20, 13)
-        lblTitle.Name = "lblTitle"
-        lblTitle.Size = New Size(151, 37)
-        lblTitle.TabIndex = 0
-        lblTitle.Text = "🎴 Add Card"
         ' 
         ' txtName
         ' 
         txtName.Location = New Point(30, 222)
         txtName.Name = "txtName"
         txtName.PlaceholderText = "Card Name"
-        txtName.Size = New Size(206, 24)
+        txtName.Size = New Size(206, 28)
         txtName.TabIndex = 0
         ' 
         ' txtType
@@ -47,7 +39,7 @@ Partial Class tambahKartu
         txtType.Location = New Point(30, 262)
         txtType.Name = "txtType"
         txtType.PlaceholderText = "Type"
-        txtType.Size = New Size(206, 24)
+        txtType.Size = New Size(206, 28)
         txtType.TabIndex = 1
         ' 
         ' txtRarity
@@ -56,7 +48,7 @@ Partial Class tambahKartu
         txtRarity.Location = New Point(30, 302)
         txtRarity.Name = "txtRarity"
         txtRarity.PlaceholderText = "Rarity"
-        txtRarity.Size = New Size(206, 24)
+        txtRarity.Size = New Size(206, 28)
         txtRarity.TabIndex = 2
         ' 
         ' txtImagePath
@@ -64,40 +56,25 @@ Partial Class tambahKartu
         txtImagePath.Location = New Point(351, 329)
         txtImagePath.Name = "txtImagePath"
         txtImagePath.PlaceholderText = "Image Path"
-        txtImagePath.Size = New Size(206, 24)
+        txtImagePath.Size = New Size(206, 28)
         txtImagePath.TabIndex = 3
-        '
-        ' txtPrice
-        '
-        txtPrice = New TextBox()
-        txtPrice.Location = New Point(30, 342)
-        txtPrice.Name = "txtPrice"
-        txtPrice.PlaceholderText = "Card Price"
-        txtPrice.Size = New Size(206, 24)
-        txtPrice.TabIndex = 4
-        '
+        ' 
         ' btnAdd
-        '
-        btnAdd = New Button()
+        ' 
         btnAdd.BackColor = Color.Gold
         btnAdd.FlatStyle = FlatStyle.Popup
-        btnAdd.Location = New Point(30, 382)
+        btnAdd.Location = New Point(19, 420)
         btnAdd.Name = "btnAdd"
         btnAdd.Size = New Size(59, 30)
         btnAdd.TabIndex = 5
         btnAdd.Text = "Add"
         btnAdd.UseVisualStyleBackColor = False
-
-        ' Adding controls to panel
-        pnlControls.Controls.Add(txtPrice)
-        pnlControls.Controls.Add(btnAdd)
-
         ' 
         ' btnEdit
         ' 
         btnEdit.BackColor = Color.LightSeaGreen
         btnEdit.FlatStyle = FlatStyle.Popup
-        btnEdit.Location = New Point(104, 342)
+        btnEdit.Location = New Point(100, 420)
         btnEdit.Name = "btnEdit"
         btnEdit.Size = New Size(59, 30)
         btnEdit.TabIndex = 5
@@ -108,7 +85,7 @@ Partial Class tambahKartu
         ' 
         btnDelete.BackColor = Color.Red
         btnDelete.FlatStyle = FlatStyle.Popup
-        btnDelete.Location = New Point(177, 342)
+        btnDelete.Location = New Point(177, 420)
         btnDelete.Name = "btnDelete"
         btnDelete.Size = New Size(59, 30)
         btnDelete.TabIndex = 6
@@ -117,9 +94,9 @@ Partial Class tambahKartu
         ' 
         ' lstCards
         ' 
-        lstCards.Location = New Point(302, 60)
+        lstCards.Location = New Point(302, 30)
         lstCards.Name = "lstCards"
-        lstCards.Size = New Size(299, 402)
+        lstCards.Size = New Size(299, 450)
         lstCards.TabIndex = 2
         lstCards.UseCompatibleStateImageBehavior = False
         lstCards.View = View.Details
@@ -127,6 +104,7 @@ Partial Class tambahKartu
         ' pnlControls
         ' 
         pnlControls.BackColor = Color.White
+        pnlControls.Controls.Add(txtPrice)
         pnlControls.Controls.Add(btnUpload)
         pnlControls.Controls.Add(PictureBox1)
         pnlControls.Controls.Add(txtName)
@@ -136,18 +114,27 @@ Partial Class tambahKartu
         pnlControls.Controls.Add(btnEdit)
         pnlControls.Controls.Add(btnAdd)
         pnlControls.Controls.Add(Panel1)
-        pnlControls.Location = New Point(20, 60)
+        pnlControls.Controls.Add(cmbKategori)
+        pnlControls.Location = New Point(20, 30)
         pnlControls.Name = "pnlControls"
-        pnlControls.Size = New Size(267, 402)
+        pnlControls.Size = New Size(267, 452)
         pnlControls.TabIndex = 1
+        ' 
+        ' txtPrice
+        ' 
+        txtPrice.Location = New Point(30, 343)
+        txtPrice.Name = "txtPrice"
+        txtPrice.PlaceholderText = "Card Price"
+        txtPrice.Size = New Size(206, 28)
+        txtPrice.TabIndex = 4
         ' 
         ' btnUpload
         ' 
         btnUpload.BackColor = Color.LightSeaGreen
         btnUpload.FlatStyle = FlatStyle.Popup
-        btnUpload.Location = New Point(104, 156)
+        btnUpload.Location = New Point(92, 156)
         btnUpload.Name = "btnUpload"
-        btnUpload.Size = New Size(59, 25)
+        btnUpload.Size = New Size(80, 31)
         btnUpload.TabIndex = 8
         btnUpload.Text = "Upload"
         btnUpload.UseVisualStyleBackColor = False
@@ -168,6 +155,15 @@ Partial Class tambahKartu
         Panel1.Size = New Size(206, 170)
         Panel1.TabIndex = 9
         ' 
+        ' cmbKategori
+        ' 
+        cmbKategori.DropDownStyle = ComboBoxStyle.DropDownList
+        cmbKategori.Items.AddRange(New Object() {"common", "rare", "epic", "legend"})
+        cmbKategori.Location = New Point(30, 380)
+        cmbKategori.Name = "cmbKategori"
+        cmbKategori.Size = New Size(206, 29)
+        cmbKategori.TabIndex = 10
+        ' 
         ' Button2
         ' 
         Button2.BackColor = Color.Transparent
@@ -177,27 +173,27 @@ Partial Class tambahKartu
         Button2.FlatStyle = FlatStyle.Flat
         Button2.ForeColor = Color.Transparent
         Button2.Image = CType(resources.GetObject("Button2.Image"), Image)
-        Button2.Location = New Point(592, 8)
+        Button2.Location = New Point(598, 2)
         Button2.Margin = New Padding(3, 2, 3, 2)
         Button2.Name = "Button2"
-        Button2.Size = New Size(27, 31)
+        Button2.Size = New Size(29, 31)
         Button2.TabIndex = 17
         Button2.TabStop = False
         Button2.UseVisualStyleBackColor = False
         ' 
         ' panelHeader
         ' 
+        panelHeader.BackColor = Color.Black
+        panelHeader.Controls.Add(Button2)
         panelHeader.Location = New Point(0, 1)
         panelHeader.Name = "panelHeader"
-        panelHeader.Size = New Size(630, 493)
+        panelHeader.Size = New Size(630, 490)
         panelHeader.TabIndex = 18
         ' 
         ' tambahKartu
         ' 
         BackColor = Color.Black
         ClientSize = New Size(627, 494)
-        Controls.Add(Button2)
-        Controls.Add(lblTitle)
         Controls.Add(pnlControls)
         Controls.Add(lstCards)
         Controls.Add(txtImagePath)
@@ -209,11 +205,10 @@ Partial Class tambahKartu
         pnlControls.ResumeLayout(False)
         pnlControls.PerformLayout()
         CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
+        panelHeader.ResumeLayout(False)
         ResumeLayout(False)
         PerformLayout()
     End Sub
-
-    Friend WithEvents lblTitle As Label
     Friend WithEvents txtName As TextBox
     Friend WithEvents txtType As TextBox
     Friend WithEvents txtRarity As TextBox
@@ -231,4 +226,6 @@ Partial Class tambahKartu
     Friend WithEvents Button2 As Button
     Friend WithEvents panelHeader As Panel
     Friend WithEvents txtPrice As TextBox
+    Friend WithEvents cmbKategori As ComboBox
+
 End Class

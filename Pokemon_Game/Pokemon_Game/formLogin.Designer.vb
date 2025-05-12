@@ -122,7 +122,7 @@ Partial Class formLogin
         Controls.Add(panelLogin)
         Controls.Add(lblTitle)
         Controls.Add(picLogo)
-        FormBorderStyle = FormBorderStyle.FixedSingle
+        FormBorderStyle = FormBorderStyle.None
         MaximizeBox = False
         Name = "formLogin"
         StartPosition = FormStartPosition.CenterScreen

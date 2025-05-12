@@ -190,3 +190,14 @@ D:\tugas-ade\SEMESTER-4\PEMVIS\PA\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-win
 D:\tugas-ade\SEMESTER-4\PEMVIS\PA\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\ref\Pokemon_Game.dll
 D:\tugas-ade\SEMESTER-4\PEMVIS\PA\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.formBeliKartu.resources
 D:\tugas-ade\SEMESTER-4\PEMVIS\PA\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.formRecycle.resources
+D:\tugas-ade\SEMESTER-4\PA\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.FormApproveTopup.resources
+D:\tugas-ade\SEMESTER-4\PA\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.formBeliKartu.resources
+D:\tugas-ade\SEMESTER-4\PA\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.formEvent.resources
+D:\tugas-ade\SEMESTER-4\PA\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.formGiftCard.resources
+D:\tugas-ade\SEMESTER-4\PA\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.formRecycle.resources
+D:\tugas-ade\SEMESTER-4\PA\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.gachaform.resources
+D:\tugas-ade\SEMESTER-4\PA\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.Resources.resources
+D:\tugas-ade\SEMESTER-4\PA\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.tambahKartu.resources
+D:\tugas-ade\SEMESTER-4\PA\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.tampilanGacha.resources
+D:\tugas-ade\SEMESTER-4\PA\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.tampilanGacha1.resources
+D:\tugas-ade\SEMESTER-4\PA\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.sourcelink.json
