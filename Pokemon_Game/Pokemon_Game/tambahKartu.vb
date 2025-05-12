@@ -17,7 +17,7 @@ Public Class tambahKartu
         cmbKategori.DropDownStyle = ComboBoxStyle.DropDownList
         cmbKategori.ForeColor = Color.Gray
         cmbKategori.Items.Add("Pilih Kategori")
-        cmbKategori.Items.AddRange(New Object() {"rare", "epic", "legend", "Mythic"})
+        cmbKategori.Items.AddRange(New Object() {"rare", "epic", "legend", "mythic"})
         cmbKategori.SelectedIndex = 0
 
         ' Event handler untuk mengubah warna teks saat memilih item
@@ -239,7 +239,7 @@ Public Class tambahKartu
             Dim selectedItem As ListViewItem = lstCards.SelectedItems(0)
             Dim id As Integer = Convert.ToInt32(selectedItem.SubItems(0).Text)
 
-            If MessageBox.Show("Apakah Anda yakin ingin menghapus kartu ini beserta relasinya?", "Konfirmasi Hapus", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) = DialogResult.Yes Then
+            If MessageBox.Show("Apakah Anda yakin ingin menghapus kartu ?", "Konfirmasi Hapus", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) = DialogResult.Yes Then
                 Try
                     koneksi()
 
@@ -253,7 +253,7 @@ Public Class tambahKartu
                     CMD.Parameters.AddWithValue("@id", id)
                     CMD.ExecuteNonQuery()
 
-                    MessageBox.Show("Kartu dan relasi berhasil dihapus.", "Sukses", MessageBoxButtons.OK, MessageBoxIcon.Information)
+                    MessageBox.Show("Kartu berhasil dihapus.", "Sukses", MessageBoxButtons.OK, MessageBoxIcon.Information)
                     ClearForm()
                     LoadCardData()
                     formAdmin.LoadStatistik()
