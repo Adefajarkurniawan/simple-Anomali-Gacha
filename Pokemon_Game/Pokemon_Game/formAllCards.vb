@@ -7,15 +7,15 @@ Public Class formAllCards
     End Sub
 
     Private Sub LoadCards()
+        pnlCardList.Controls.Clear()
         koneksi()
-        flowCards.Controls.Clear()
 
         Try
             CMD = New MySqlCommand("SELECT * FROM cards", CONN)
             RD = CMD.ExecuteReader()
 
             While RD.Read()
-                Dim panelCard As New Panel With {
+                Dim cardPanel As New Panel With {
                     .Size = New Size(150, 240),
                     .BackColor = Color.WhiteSmoke,
                     .BorderStyle = BorderStyle.FixedSingle,
@@ -28,14 +28,15 @@ Public Class formAllCards
                     .SizeMode = PictureBoxSizeMode.StretchImage
                 }
 
-                Dim imagePath = Path.Combine(Application.StartupPath, "Assets", RD("image_path").ToString())
+                ' Mengambil path gambar sesuai struktur penyimpanan
+                Dim imagePath = Path.Combine(Application.StartupPath, RD("image_path").ToString())
                 If File.Exists(imagePath) Then
                     pb.Image = Image.FromFile(imagePath)
                 End If
 
                 Dim lblName As New Label With {
                     .Text = RD("name").ToString(),
-                    .Font = New Font("Segoe UI", 9, FontStyle.Bold),
+                    .Font = New Font("Segoe UI", 10, FontStyle.Bold),
                     .TextAlign = ContentAlignment.MiddleCenter,
                     .Location = New Point(10, 120),
                     .Size = New Size(130, 20)
@@ -43,24 +44,24 @@ Public Class formAllCards
 
                 Dim lblType As New Label With {
                     .Text = "Type: " & RD("type").ToString(),
-                    .Font = New Font("Segoe UI", 8),
+                    .Font = New Font("Segoe UI", 9),
                     .Location = New Point(10, 145),
                     .Size = New Size(130, 20)
                 }
 
                 Dim lblRarity As New Label With {
                     .Text = "Rarity: " & RD("rarity").ToString(),
-                    .Font = New Font("Segoe UI", 8),
+                    .Font = New Font("Segoe UI", 9),
                     .Location = New Point(10, 170),
                     .Size = New Size(130, 20)
                 }
 
-                panelCard.Controls.Add(pb)
-                panelCard.Controls.Add(lblName)
-                panelCard.Controls.Add(lblType)
-                panelCard.Controls.Add(lblRarity)
+                cardPanel.Controls.Add(pb)
+                cardPanel.Controls.Add(lblName)
+                cardPanel.Controls.Add(lblType)
+                cardPanel.Controls.Add(lblRarity)
 
-                flowCards.Controls.Add(panelCard)
+                pnlCardList.Controls.Add(cardPanel)
             End While
             RD.Close()
 

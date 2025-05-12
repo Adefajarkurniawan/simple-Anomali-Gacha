@@ -33,26 +33,26 @@ Partial Class formRegis
         ' 
         ' txtUsername
         ' 
-        txtUsername.Font = New Font("Segoe UI", 10.0F)
+        txtUsername.Font = New Font("Segoe UI", 10F)
         txtUsername.Location = New Point(30, 50)
         txtUsername.Name = "txtUsername"
-        txtUsername.Size = New Size(340, 30)
+        txtUsername.Size = New Size(340, 25)
         txtUsername.TabIndex = 0
         ' 
         ' txtPassword
         ' 
-        txtPassword.Font = New Font("Segoe UI", 10.0F)
+        txtPassword.Font = New Font("Segoe UI", 10F)
         txtPassword.Location = New Point(30, 110)
         txtPassword.Name = "txtPassword"
         txtPassword.PasswordChar = "*"c
-        txtPassword.Size = New Size(340, 30)
+        txtPassword.Size = New Size(340, 25)
         txtPassword.TabIndex = 1
         ' 
         ' btnRegister
         ' 
         btnRegister.BackColor = Color.Gold
         btnRegister.FlatStyle = FlatStyle.Flat
-        btnRegister.Font = New Font("Segoe UI", 10.0F, FontStyle.Bold)
+        btnRegister.Font = New Font("Segoe UI", 10F, FontStyle.Bold)
         btnRegister.Location = New Point(30, 160)
         btnRegister.Name = "btnRegister"
         btnRegister.Size = New Size(150, 40)
@@ -64,7 +64,7 @@ Partial Class formRegis
         ' 
         btnToLogin.BackColor = Color.LightSkyBlue
         btnToLogin.FlatStyle = FlatStyle.Flat
-        btnToLogin.Font = New Font("Segoe UI", 10.0F, FontStyle.Bold)
+        btnToLogin.Font = New Font("Segoe UI", 10F, FontStyle.Bold)
         btnToLogin.Location = New Point(220, 160)
         btnToLogin.Name = "btnToLogin"
         btnToLogin.Size = New Size(150, 40)
@@ -74,7 +74,7 @@ Partial Class formRegis
         ' 
         ' lblUser
         ' 
-        lblUser.Font = New Font("Segoe UI", 10.0F, FontStyle.Bold)
+        lblUser.Font = New Font("Segoe UI", 10F, FontStyle.Bold)
         lblUser.ForeColor = Color.DarkSlateGray
         lblUser.Location = New Point(30, 30)
         lblUser.Name = "lblUser"
@@ -84,7 +84,7 @@ Partial Class formRegis
         ' 
         ' lblPass
         ' 
-        lblPass.Font = New Font("Segoe UI", 10.0F, FontStyle.Bold)
+        lblPass.Font = New Font("Segoe UI", 10F, FontStyle.Bold)
         lblPass.ForeColor = Color.DarkSlateGray
         lblPass.Location = New Point(30, 90)
         lblPass.Name = "lblPass"
@@ -95,11 +95,11 @@ Partial Class formRegis
         ' lblTitle
         ' 
         lblTitle.AutoSize = True
-        lblTitle.Font = New Font("Comic Sans MS", 18.0F, FontStyle.Bold)
+        lblTitle.Font = New Font("Comic Sans MS", 18F, FontStyle.Bold)
         lblTitle.ForeColor = Color.DarkBlue
-        lblTitle.Location = New Point(130, 70)
+        lblTitle.Location = New Point(172, 73)
         lblTitle.Name = "lblTitle"
-        lblTitle.Size = New Size(325, 41)
+        lblTitle.Size = New Size(260, 35)
         lblTitle.TabIndex = 6
         lblTitle.Text = "Pokémon Gacha Regis"
         lblTitle.TextAlign = ContentAlignment.MiddleCenter

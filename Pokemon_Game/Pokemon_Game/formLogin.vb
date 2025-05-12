@@ -40,8 +40,10 @@ Public Class formLogin
             CMD.Parameters.AddWithValue("@pass", hashed)
             RD = CMD.ExecuteReader()
 
-            If RD.HasRows Then
+            If RD.Read() Then
                 currentUsername = username
+                currentUserId = Convert.ToInt32(RD("id")) ' ✅ Simpan ID user
+
                 MessageBox.Show("Login berhasil!", "Sukses", MessageBoxButtons.OK, MessageBoxIcon.Information)
                 formHome.Show()
                 Me.Hide()
@@ -52,6 +54,7 @@ Public Class formLogin
         Catch ex As Exception
             MessageBox.Show("Kesalahan saat login: " & ex.Message)
         End Try
+
     End Sub
 
     Private Sub btnToRegister_Click(sender As Object, e As EventArgs) Handles btnToRegister.Click

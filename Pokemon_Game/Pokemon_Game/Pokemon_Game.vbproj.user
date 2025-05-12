@@ -10,7 +10,19 @@
     <Compile Update="formAllCards.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="formApproveTopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="formBeliKartu.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="formCrudPack.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="formEvent.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="formGiftCard.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="formHome.vb">
@@ -19,10 +31,25 @@
     <Compile Update="formLogin.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="formRecycle.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="FormRegis.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="formTopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="gachaform.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="tambahKartu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="tampilanGacha.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="tampilanGacha1.vb">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

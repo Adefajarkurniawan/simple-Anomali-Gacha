@@ -3,72 +3,79 @@ Partial Class formTopup
     Inherits System.Windows.Forms.Form
 
     Private Sub InitializeComponent()
-        Me.lblTitle = New System.Windows.Forms.Label()
-        Me.txtAmount = New System.Windows.Forms.TextBox()
-        Me.btnTopup = New System.Windows.Forms.Button()
-        Me.btnClose = New System.Windows.Forms.Button()
-        Me.SuspendLayout()
-        '
+        lblTitle = New Label()
+        txtAmount = New TextBox()
+        btnTopup = New Button()
+        btnClose = New Button()
+        SuspendLayout()
+        ' 
         ' lblTitle
-        '
-        Me.lblTitle.AutoSize = True
-        Me.lblTitle.Font = New Font("Segoe UI", 14.0!, FontStyle.Bold)
-        Me.lblTitle.ForeColor = Color.DarkSlateBlue
-        Me.lblTitle.Location = New Point(30, 20)
-        Me.lblTitle.Name = "lblTitle"
-        Me.lblTitle.Size = New Size(260, 32)
-        Me.lblTitle.Text = "Masukkan Jumlah Coin"
-        '
+        ' 
+        lblTitle.AutoSize = True
+        lblTitle.Font = New Font("Segoe UI", 14.0F, FontStyle.Bold)
+        lblTitle.ForeColor = Color.DarkSlateBlue
+        lblTitle.Location = New Point(26, 15)
+        lblTitle.Name = "lblTitle"
+        lblTitle.Size = New Size(218, 25)
+        lblTitle.TabIndex = 0
+        lblTitle.Text = "Masukkan Jumlah Coin"
+        ' 
         ' txtAmount
-        '
-        Me.txtAmount.Font = New Font("Segoe UI", 13.0!)
-        Me.txtAmount.Location = New Point(35, 70)
-        Me.txtAmount.Name = "txtAmount"
-        Me.txtAmount.Size = New Size(270, 36)
-        Me.txtAmount.TabIndex = 0
-        Me.txtAmount.TextAlign = HorizontalAlignment.Center
-        '
+        ' 
+        txtAmount.Font = New Font("Segoe UI", 13.0F)
+        txtAmount.Location = New Point(31, 52)
+        txtAmount.Margin = New Padding(3, 2, 3, 2)
+        txtAmount.Name = "txtAmount"
+        txtAmount.Size = New Size(237, 31)
+        txtAmount.TabIndex = 0
+        txtAmount.TextAlign = HorizontalAlignment.Center
+        ' 
         ' btnTopup
-        '
-        Me.btnTopup.BackColor = Color.SeaGreen
-        Me.btnTopup.FlatStyle = FlatStyle.Flat
-        Me.btnTopup.Font = New Font("Segoe UI", 12.0!, FontStyle.Bold)
-        Me.btnTopup.ForeColor = Color.White
-        Me.btnTopup.Location = New Point(35, 130)
-        Me.btnTopup.Name = "btnTopup"
-        Me.btnTopup.Size = New Size(270, 45)
-        Me.btnTopup.TabIndex = 1
-        Me.btnTopup.Text = "Topup Sekarang"
-        Me.btnTopup.UseVisualStyleBackColor = False
-        '
+        ' 
+        btnTopup.BackColor = Color.SeaGreen
+        btnTopup.FlatStyle = FlatStyle.Flat
+        btnTopup.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold)
+        btnTopup.ForeColor = Color.White
+        btnTopup.Location = New Point(31, 98)
+        btnTopup.Margin = New Padding(3, 2, 3, 2)
+        btnTopup.Name = "btnTopup"
+        btnTopup.Size = New Size(236, 34)
+        btnTopup.TabIndex = 1
+        btnTopup.Text = "Topup Sekarang"
+        btnTopup.UseVisualStyleBackColor = False
+        ' 
         ' btnClose
-        '
-        Me.btnClose.Text = "X"
-        Me.btnClose.Font = New Font("Segoe UI", 9.0!, FontStyle.Bold)
-        Me.btnClose.ForeColor = Color.DarkRed
-        Me.btnClose.FlatStyle = FlatStyle.Flat
-        Me.btnClose.Location = New Point(310, 10)
-        Me.btnClose.Size = New Size(30, 30)
-        Me.btnClose.BackColor = Color.Transparent
-        Me.btnClose.Name = "btnClose"
-        '
+        ' 
+        btnClose.BackColor = Color.Transparent
+        btnClose.FlatStyle = FlatStyle.Flat
+        btnClose.Font = New Font("Segoe UI", 9.0F, FontStyle.Bold)
+        btnClose.ForeColor = Color.DarkRed
+        btnClose.Location = New Point(271, 8)
+        btnClose.Margin = New Padding(3, 2, 3, 2)
+        btnClose.Name = "btnClose"
+        btnClose.Size = New Size(26, 22)
+        btnClose.TabIndex = 2
+        btnClose.Text = "X"
+        btnClose.UseVisualStyleBackColor = False
+        ' 
         ' formTopup
-        '
-        Me.AcceptButton = Me.btnTopup
-        Me.AutoScaleDimensions = New SizeF(8.0F, 20.0F)
-        Me.AutoScaleMode = AutoScaleMode.Font
-        Me.BackColor = Color.White
-        Me.ClientSize = New Size(360, 200)
-        Me.Controls.Add(Me.lblTitle)
-        Me.Controls.Add(Me.txtAmount)
-        Me.Controls.Add(Me.btnTopup)
-        Me.Controls.Add(Me.btnClose)
-        Me.FormBorderStyle = FormBorderStyle.None
-        Me.Name = "formTopup"
-        Me.StartPosition = FormStartPosition.CenterParent
-        Me.Text = "Topup Coin"
-        Me.ResumeLayout(False)
-        Me.PerformLayout()
+        ' 
+        AcceptButton = btnTopup
+        AutoScaleDimensions = New SizeF(7.0F, 15.0F)
+        AutoScaleMode = AutoScaleMode.Font
+        BackColor = Color.White
+        ClientSize = New Size(315, 150)
+        Controls.Add(lblTitle)
+        Controls.Add(txtAmount)
+        Controls.Add(btnTopup)
+        Controls.Add(btnClose)
+        FormBorderStyle = FormBorderStyle.None
+        Margin = New Padding(3, 2, 3, 2)
+        Name = "formTopup"
+        StartPosition = FormStartPosition.CenterParent
+        Text = "Topup Coin"
+        ResumeLayout(False)
+        PerformLayout()
     End Sub
 
     Friend WithEvents lblTitle As Label

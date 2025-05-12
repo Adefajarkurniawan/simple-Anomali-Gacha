@@ -49,3 +49,144 @@ D:\tugas-ade\SEMESTER-4\PA\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Po
 D:\tugas-ade\SEMESTER-4\PA\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.genruntimeconfig.cache
 D:\tugas-ade\SEMESTER-4\PA\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\ref\Pokemon_Game.dll
 D:\tugas-ade\SEMESTER-4\PA\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.formCrudPack.resources
+C:\Users\ACER-GK\Documents\ANE\simple-Pokemon-Gacha--main\Pokemon_Game\Pokemon_Game\bin\Debug\net8.0-windows\Assets\pokemon.png
+C:\Users\ACER-GK\Documents\ANE\simple-Pokemon-Gacha--main\Pokemon_Game\Pokemon_Game\bin\Debug\net8.0-windows\Pokemon_Game.exe
+C:\Users\ACER-GK\Documents\ANE\simple-Pokemon-Gacha--main\Pokemon_Game\Pokemon_Game\bin\Debug\net8.0-windows\Pokemon_Game.deps.json
+C:\Users\ACER-GK\Documents\ANE\simple-Pokemon-Gacha--main\Pokemon_Game\Pokemon_Game\bin\Debug\net8.0-windows\Pokemon_Game.runtimeconfig.json
+C:\Users\ACER-GK\Documents\ANE\simple-Pokemon-Gacha--main\Pokemon_Game\Pokemon_Game\bin\Debug\net8.0-windows\Pokemon_Game.dll
+C:\Users\ACER-GK\Documents\ANE\simple-Pokemon-Gacha--main\Pokemon_Game\Pokemon_Game\bin\Debug\net8.0-windows\Pokemon_Game.pdb
+C:\Users\ACER-GK\Documents\ANE\simple-Pokemon-Gacha--main\Pokemon_Game\Pokemon_Game\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\ACER-GK\Documents\ANE\simple-Pokemon-Gacha--main\Pokemon_Game\Pokemon_Game\bin\Debug\net8.0-windows\Google.Protobuf.dll
+C:\Users\ACER-GK\Documents\ANE\simple-Pokemon-Gacha--main\Pokemon_Game\Pokemon_Game\bin\Debug\net8.0-windows\K4os.Compression.LZ4.dll
+C:\Users\ACER-GK\Documents\ANE\simple-Pokemon-Gacha--main\Pokemon_Game\Pokemon_Game\bin\Debug\net8.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\ACER-GK\Documents\ANE\simple-Pokemon-Gacha--main\Pokemon_Game\Pokemon_Game\bin\Debug\net8.0-windows\K4os.Hash.xxHash.dll
+C:\Users\ACER-GK\Documents\ANE\simple-Pokemon-Gacha--main\Pokemon_Game\Pokemon_Game\bin\Debug\net8.0-windows\MySql.Data.dll
+C:\Users\ACER-GK\Documents\ANE\simple-Pokemon-Gacha--main\Pokemon_Game\Pokemon_Game\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+C:\Users\ACER-GK\Documents\ANE\simple-Pokemon-Gacha--main\Pokemon_Game\Pokemon_Game\bin\Debug\net8.0-windows\System.Text.Encodings.Web.dll
+C:\Users\ACER-GK\Documents\ANE\simple-Pokemon-Gacha--main\Pokemon_Game\Pokemon_Game\bin\Debug\net8.0-windows\System.Text.Json.dll
+C:\Users\ACER-GK\Documents\ANE\simple-Pokemon-Gacha--main\Pokemon_Game\Pokemon_Game\bin\Debug\net8.0-windows\ZstdSharp.dll
+C:\Users\ACER-GK\Documents\ANE\simple-Pokemon-Gacha--main\Pokemon_Game\Pokemon_Game\bin\Debug\net8.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\ACER-GK\Documents\ANE\simple-Pokemon-Gacha--main\Pokemon_Game\Pokemon_Game\bin\Debug\net8.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\ACER-GK\Documents\ANE\simple-Pokemon-Gacha--main\Pokemon_Game\Pokemon_Game\bin\Debug\net8.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\ACER-GK\Documents\ANE\simple-Pokemon-Gacha--main\Pokemon_Game\Pokemon_Game\bin\Debug\net8.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\ACER-GK\Documents\ANE\simple-Pokemon-Gacha--main\Pokemon_Game\Pokemon_Game\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\ACER-GK\Documents\ANE\simple-Pokemon-Gacha--main\Pokemon_Game\Pokemon_Game\bin\Debug\net8.0-windows\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\ACER-GK\Documents\ANE\simple-Pokemon-Gacha--main\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.vbproj.AssemblyReference.cache
+C:\Users\ACER-GK\Documents\ANE\simple-Pokemon-Gacha--main\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.formAdmin.resources
+C:\Users\ACER-GK\Documents\ANE\simple-Pokemon-Gacha--main\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.formAlbum.resources
+C:\Users\ACER-GK\Documents\ANE\simple-Pokemon-Gacha--main\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.formAllCards.resources
+C:\Users\ACER-GK\Documents\ANE\simple-Pokemon-Gacha--main\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.formCrudPack.resources
+C:\Users\ACER-GK\Documents\ANE\simple-Pokemon-Gacha--main\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.formHome.resources
+C:\Users\ACER-GK\Documents\ANE\simple-Pokemon-Gacha--main\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.formLogin.resources
+C:\Users\ACER-GK\Documents\ANE\simple-Pokemon-Gacha--main\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.formRegis.resources
+C:\Users\ACER-GK\Documents\ANE\simple-Pokemon-Gacha--main\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.formTopup.resources
+C:\Users\ACER-GK\Documents\ANE\simple-Pokemon-Gacha--main\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.Resources.resources
+C:\Users\ACER-GK\Documents\ANE\simple-Pokemon-Gacha--main\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.vbproj.GenerateResource.cache
+C:\Users\ACER-GK\Documents\ANE\simple-Pokemon-Gacha--main\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ACER-GK\Documents\ANE\simple-Pokemon-Gacha--main\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.AssemblyInfoInputs.cache
+C:\Users\ACER-GK\Documents\ANE\simple-Pokemon-Gacha--main\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.AssemblyInfo.vb
+C:\Users\ACER-GK\Documents\ANE\simple-Pokemon-Gacha--main\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.vbproj.CoreCompileInputs.cache
+C:\Users\ACER-GK\Documents\ANE\simple-Pokemon-Gacha--main\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_.1A152BD8.Up2Date
+C:\Users\ACER-GK\Documents\ANE\simple-Pokemon-Gacha--main\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.dll
+C:\Users\ACER-GK\Documents\ANE\simple-Pokemon-Gacha--main\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\refint\Pokemon_Game.dll
+C:\Users\ACER-GK\Documents\ANE\simple-Pokemon-Gacha--main\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.pdb
+C:\Users\ACER-GK\Documents\ANE\simple-Pokemon-Gacha--main\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.genruntimeconfig.cache
+C:\Users\ACER-GK\Documents\ANE\simple-Pokemon-Gacha--main\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\ref\Pokemon_Game.dll
+C:\Users\ACER-GK\Documents\ANE\simple-Pokemon-Gacha--main\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.gachaform.resources
+C:\Users\ACER-GK\Documents\ANE\simple-Pokemon-Gacha--main\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.tambahKartu.resources
+C:\Users\ACER-GK\Documents\ANE\simple-Pokemon-Gacha--main\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.tampilanGacha.resources
+C:\Users\ACER-GK\Documents\ANE\simple-Pokemon-Gacha--main\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.formEvent.resources
+C:\Users\ACER-GK\Documents\ANE\simple-Pokemon-Gacha--main\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.tampilanGacha1.resources
+C:\Users\Msi GK\OneDrive\Video\PEMVIS\PA\Pokemon_Game\Pokemon_Game\Pokemon_Game\bin\Debug\net8.0-windows\Assets\pokemon.png
+C:\Users\Msi GK\OneDrive\Video\PEMVIS\PA\Pokemon_Game\Pokemon_Game\Pokemon_Game\bin\Debug\net8.0-windows\Pokemon_Game.exe
+C:\Users\Msi GK\OneDrive\Video\PEMVIS\PA\Pokemon_Game\Pokemon_Game\Pokemon_Game\bin\Debug\net8.0-windows\Pokemon_Game.deps.json
+C:\Users\Msi GK\OneDrive\Video\PEMVIS\PA\Pokemon_Game\Pokemon_Game\Pokemon_Game\bin\Debug\net8.0-windows\Pokemon_Game.runtimeconfig.json
+C:\Users\Msi GK\OneDrive\Video\PEMVIS\PA\Pokemon_Game\Pokemon_Game\Pokemon_Game\bin\Debug\net8.0-windows\Pokemon_Game.dll
+C:\Users\Msi GK\OneDrive\Video\PEMVIS\PA\Pokemon_Game\Pokemon_Game\Pokemon_Game\bin\Debug\net8.0-windows\Pokemon_Game.pdb
+C:\Users\Msi GK\OneDrive\Video\PEMVIS\PA\Pokemon_Game\Pokemon_Game\Pokemon_Game\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\Msi GK\OneDrive\Video\PEMVIS\PA\Pokemon_Game\Pokemon_Game\Pokemon_Game\bin\Debug\net8.0-windows\Google.Protobuf.dll
+C:\Users\Msi GK\OneDrive\Video\PEMVIS\PA\Pokemon_Game\Pokemon_Game\Pokemon_Game\bin\Debug\net8.0-windows\K4os.Compression.LZ4.dll
+C:\Users\Msi GK\OneDrive\Video\PEMVIS\PA\Pokemon_Game\Pokemon_Game\Pokemon_Game\bin\Debug\net8.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\Msi GK\OneDrive\Video\PEMVIS\PA\Pokemon_Game\Pokemon_Game\Pokemon_Game\bin\Debug\net8.0-windows\K4os.Hash.xxHash.dll
+C:\Users\Msi GK\OneDrive\Video\PEMVIS\PA\Pokemon_Game\Pokemon_Game\Pokemon_Game\bin\Debug\net8.0-windows\MySql.Data.dll
+C:\Users\Msi GK\OneDrive\Video\PEMVIS\PA\Pokemon_Game\Pokemon_Game\Pokemon_Game\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+C:\Users\Msi GK\OneDrive\Video\PEMVIS\PA\Pokemon_Game\Pokemon_Game\Pokemon_Game\bin\Debug\net8.0-windows\System.Text.Encodings.Web.dll
+C:\Users\Msi GK\OneDrive\Video\PEMVIS\PA\Pokemon_Game\Pokemon_Game\Pokemon_Game\bin\Debug\net8.0-windows\System.Text.Json.dll
+C:\Users\Msi GK\OneDrive\Video\PEMVIS\PA\Pokemon_Game\Pokemon_Game\Pokemon_Game\bin\Debug\net8.0-windows\ZstdSharp.dll
+C:\Users\Msi GK\OneDrive\Video\PEMVIS\PA\Pokemon_Game\Pokemon_Game\Pokemon_Game\bin\Debug\net8.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\Msi GK\OneDrive\Video\PEMVIS\PA\Pokemon_Game\Pokemon_Game\Pokemon_Game\bin\Debug\net8.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\Msi GK\OneDrive\Video\PEMVIS\PA\Pokemon_Game\Pokemon_Game\Pokemon_Game\bin\Debug\net8.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\Msi GK\OneDrive\Video\PEMVIS\PA\Pokemon_Game\Pokemon_Game\Pokemon_Game\bin\Debug\net8.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\Msi GK\OneDrive\Video\PEMVIS\PA\Pokemon_Game\Pokemon_Game\Pokemon_Game\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\Msi GK\OneDrive\Video\PEMVIS\PA\Pokemon_Game\Pokemon_Game\Pokemon_Game\bin\Debug\net8.0-windows\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\Msi GK\OneDrive\Video\PEMVIS\PA\Pokemon_Game\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.vbproj.AssemblyReference.cache
+C:\Users\Msi GK\OneDrive\Video\PEMVIS\PA\Pokemon_Game\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.formAdmin.resources
+C:\Users\Msi GK\OneDrive\Video\PEMVIS\PA\Pokemon_Game\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.formAlbum.resources
+C:\Users\Msi GK\OneDrive\Video\PEMVIS\PA\Pokemon_Game\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.formAllCards.resources
+C:\Users\Msi GK\OneDrive\Video\PEMVIS\PA\Pokemon_Game\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.formCrudPack.resources
+C:\Users\Msi GK\OneDrive\Video\PEMVIS\PA\Pokemon_Game\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.formEvent.resources
+C:\Users\Msi GK\OneDrive\Video\PEMVIS\PA\Pokemon_Game\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.formHome.resources
+C:\Users\Msi GK\OneDrive\Video\PEMVIS\PA\Pokemon_Game\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.formLogin.resources
+C:\Users\Msi GK\OneDrive\Video\PEMVIS\PA\Pokemon_Game\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.formRegis.resources
+C:\Users\Msi GK\OneDrive\Video\PEMVIS\PA\Pokemon_Game\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.formTopup.resources
+C:\Users\Msi GK\OneDrive\Video\PEMVIS\PA\Pokemon_Game\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.gachaform.resources
+C:\Users\Msi GK\OneDrive\Video\PEMVIS\PA\Pokemon_Game\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.Resources.resources
+C:\Users\Msi GK\OneDrive\Video\PEMVIS\PA\Pokemon_Game\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.tambahKartu.resources
+C:\Users\Msi GK\OneDrive\Video\PEMVIS\PA\Pokemon_Game\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.tampilanGacha.resources
+C:\Users\Msi GK\OneDrive\Video\PEMVIS\PA\Pokemon_Game\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.tampilanGacha1.resources
+C:\Users\Msi GK\OneDrive\Video\PEMVIS\PA\Pokemon_Game\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.vbproj.GenerateResource.cache
+C:\Users\Msi GK\OneDrive\Video\PEMVIS\PA\Pokemon_Game\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Msi GK\OneDrive\Video\PEMVIS\PA\Pokemon_Game\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.AssemblyInfoInputs.cache
+C:\Users\Msi GK\OneDrive\Video\PEMVIS\PA\Pokemon_Game\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.AssemblyInfo.vb
+C:\Users\Msi GK\OneDrive\Video\PEMVIS\PA\Pokemon_Game\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.vbproj.CoreCompileInputs.cache
+C:\Users\Msi GK\OneDrive\Video\PEMVIS\PA\Pokemon_Game\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_.1A152BD8.Up2Date
+C:\Users\Msi GK\OneDrive\Video\PEMVIS\PA\Pokemon_Game\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.dll
+C:\Users\Msi GK\OneDrive\Video\PEMVIS\PA\Pokemon_Game\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\refint\Pokemon_Game.dll
+C:\Users\Msi GK\OneDrive\Video\PEMVIS\PA\Pokemon_Game\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.pdb
+C:\Users\Msi GK\OneDrive\Video\PEMVIS\PA\Pokemon_Game\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.genruntimeconfig.cache
+C:\Users\Msi GK\OneDrive\Video\PEMVIS\PA\Pokemon_Game\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\ref\Pokemon_Game.dll
+C:\Users\Msi GK\OneDrive\Video\PEMVIS\PA\Pokemon_Game\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.FormApproveTopup.resources
+C:\Users\Msi GK\OneDrive\Video\PEMVIS\PA\Pokemon_Game\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.formGiftCard.resources
+D:\tugas-ade\SEMESTER-4\PEMVIS\PA\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.dll
+D:\tugas-ade\SEMESTER-4\PEMVIS\PA\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\refint\Pokemon_Game.dll
+D:\tugas-ade\SEMESTER-4\PEMVIS\PA\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.pdb
+D:\tugas-ade\SEMESTER-4\PEMVIS\PA\Pokemon_Game\Pokemon_Game\bin\Debug\net8.0-windows\Assets\pokemon.png
+D:\tugas-ade\SEMESTER-4\PEMVIS\PA\Pokemon_Game\Pokemon_Game\bin\Debug\net8.0-windows\Pokemon_Game.exe
+D:\tugas-ade\SEMESTER-4\PEMVIS\PA\Pokemon_Game\Pokemon_Game\bin\Debug\net8.0-windows\Pokemon_Game.deps.json
+D:\tugas-ade\SEMESTER-4\PEMVIS\PA\Pokemon_Game\Pokemon_Game\bin\Debug\net8.0-windows\Pokemon_Game.runtimeconfig.json
+D:\tugas-ade\SEMESTER-4\PEMVIS\PA\Pokemon_Game\Pokemon_Game\bin\Debug\net8.0-windows\Pokemon_Game.dll
+D:\tugas-ade\SEMESTER-4\PEMVIS\PA\Pokemon_Game\Pokemon_Game\bin\Debug\net8.0-windows\Pokemon_Game.pdb
+D:\tugas-ade\SEMESTER-4\PEMVIS\PA\Pokemon_Game\Pokemon_Game\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+D:\tugas-ade\SEMESTER-4\PEMVIS\PA\Pokemon_Game\Pokemon_Game\bin\Debug\net8.0-windows\Google.Protobuf.dll
+D:\tugas-ade\SEMESTER-4\PEMVIS\PA\Pokemon_Game\Pokemon_Game\bin\Debug\net8.0-windows\K4os.Compression.LZ4.dll
+D:\tugas-ade\SEMESTER-4\PEMVIS\PA\Pokemon_Game\Pokemon_Game\bin\Debug\net8.0-windows\K4os.Compression.LZ4.Streams.dll
+D:\tugas-ade\SEMESTER-4\PEMVIS\PA\Pokemon_Game\Pokemon_Game\bin\Debug\net8.0-windows\K4os.Hash.xxHash.dll
+D:\tugas-ade\SEMESTER-4\PEMVIS\PA\Pokemon_Game\Pokemon_Game\bin\Debug\net8.0-windows\MySql.Data.dll
+D:\tugas-ade\SEMESTER-4\PEMVIS\PA\Pokemon_Game\Pokemon_Game\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+D:\tugas-ade\SEMESTER-4\PEMVIS\PA\Pokemon_Game\Pokemon_Game\bin\Debug\net8.0-windows\System.Text.Encodings.Web.dll
+D:\tugas-ade\SEMESTER-4\PEMVIS\PA\Pokemon_Game\Pokemon_Game\bin\Debug\net8.0-windows\System.Text.Json.dll
+D:\tugas-ade\SEMESTER-4\PEMVIS\PA\Pokemon_Game\Pokemon_Game\bin\Debug\net8.0-windows\ZstdSharp.dll
+D:\tugas-ade\SEMESTER-4\PEMVIS\PA\Pokemon_Game\Pokemon_Game\bin\Debug\net8.0-windows\runtimes\win-x64\native\comerr64.dll
+D:\tugas-ade\SEMESTER-4\PEMVIS\PA\Pokemon_Game\Pokemon_Game\bin\Debug\net8.0-windows\runtimes\win-x64\native\gssapi64.dll
+D:\tugas-ade\SEMESTER-4\PEMVIS\PA\Pokemon_Game\Pokemon_Game\bin\Debug\net8.0-windows\runtimes\win-x64\native\k5sprt64.dll
+D:\tugas-ade\SEMESTER-4\PEMVIS\PA\Pokemon_Game\Pokemon_Game\bin\Debug\net8.0-windows\runtimes\win-x64\native\krb5_64.dll
+D:\tugas-ade\SEMESTER-4\PEMVIS\PA\Pokemon_Game\Pokemon_Game\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
+D:\tugas-ade\SEMESTER-4\PEMVIS\PA\Pokemon_Game\Pokemon_Game\bin\Debug\net8.0-windows\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\tugas-ade\SEMESTER-4\PEMVIS\PA\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.formAdmin.resources
+D:\tugas-ade\SEMESTER-4\PEMVIS\PA\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.formAlbum.resources
+D:\tugas-ade\SEMESTER-4\PEMVIS\PA\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.formAllCards.resources
+D:\tugas-ade\SEMESTER-4\PEMVIS\PA\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.FormApproveTopup.resources
+D:\tugas-ade\SEMESTER-4\PEMVIS\PA\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.formCrudPack.resources
+D:\tugas-ade\SEMESTER-4\PEMVIS\PA\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.formEvent.resources
+D:\tugas-ade\SEMESTER-4\PEMVIS\PA\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.formGiftCard.resources
+D:\tugas-ade\SEMESTER-4\PEMVIS\PA\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.formTopup.resources
+D:\tugas-ade\SEMESTER-4\PEMVIS\PA\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.gachaform.resources
+D:\tugas-ade\SEMESTER-4\PEMVIS\PA\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.Resources.resources
+D:\tugas-ade\SEMESTER-4\PEMVIS\PA\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.tambahKartu.resources
+D:\tugas-ade\SEMESTER-4\PEMVIS\PA\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.tampilanGacha.resources
+D:\tugas-ade\SEMESTER-4\PEMVIS\PA\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.tampilanGacha1.resources
+D:\tugas-ade\SEMESTER-4\PEMVIS\PA\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_.1A152BD8.Up2Date
+D:\tugas-ade\SEMESTER-4\PEMVIS\PA\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.genruntimeconfig.cache
+D:\tugas-ade\SEMESTER-4\PEMVIS\PA\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\ref\Pokemon_Game.dll
+D:\tugas-ade\SEMESTER-4\PEMVIS\PA\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.formBeliKartu.resources
+D:\tugas-ade\SEMESTER-4\PEMVIS\PA\Pokemon_Game\Pokemon_Game\obj\Debug\net8.0-windows\Pokemon_Game.formRecycle.resources
