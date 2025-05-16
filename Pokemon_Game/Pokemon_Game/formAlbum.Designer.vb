@@ -29,7 +29,7 @@ Partial Class formAlbum
         lblTitle.Name = "lblTitle"
         lblTitle.Size = New Size(321, 41)
         lblTitle.TabIndex = 0
-        lblTitle.Text = "Album Kartu Saya 🌟"
+        lblTitle.Text = "Album Kartu " & currentUsername
         lblTitle.TextAlign = ContentAlignment.MiddleLeft
         ' 
         ' btnPrint

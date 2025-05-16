@@ -5,7 +5,7 @@ Imports MySql.Data.MySqlClient
 
 Public Class formLogin
     Private Sub formLogin_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Dim gambarPath As String = Path.Combine(Application.StartupPath, "Assets", "pokemon.png")
+        Dim gambarPath As String = Path.Combine(Application.StartupPath, "Assets", "anomali.jpg")
         If File.Exists(gambarPath) Then
             picLogo.Image = Image.FromFile(gambarPath)
         End If
@@ -79,4 +79,15 @@ Public Class formLogin
             Return BitConverter.ToString(bytes).Replace("-", "").ToLower()
         End Using
     End Function
+
+    Private Sub chkShowPassword_CheckedChanged(sender As Object, e As EventArgs)
+        If chkShowPassword.Checked Then
+            txtPassword.PasswordChar = ControlChars.NullChar ' Tampilkan password
+        Else
+            txtPassword.PasswordChar = "*"c ' Sembunyikan password
+        End If
+    End Sub
+
+
+
 End Class

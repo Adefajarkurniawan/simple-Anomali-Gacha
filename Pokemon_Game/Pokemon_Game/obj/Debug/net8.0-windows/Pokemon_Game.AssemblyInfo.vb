@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("Pokemon_Game"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4e12530ba42030a9d953f85086dad7896e57d9c9"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a742144ffa7cbb21299433b3597e5c775d028c13"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("Pokemon_Game"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("Pokemon_Game"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _

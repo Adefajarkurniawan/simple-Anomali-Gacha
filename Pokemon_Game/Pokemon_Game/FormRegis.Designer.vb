@@ -47,13 +47,24 @@ Partial Class formRegis
         txtPassword.PasswordChar = "*"c
         txtPassword.Size = New Size(340, 30)
         txtPassword.TabIndex = 1
+        '
+        ' Tambahkan di panelLogin.Controls
+        '
+        chkShowPassword = New CheckBox()
+        chkShowPassword.Text = "Lihat Password"
+        chkShowPassword.Font = New Font("Segoe UI", 9.0F)
+        chkShowPassword.Location = New Point(30, 145)
+        chkShowPassword.Size = New Size(150, 20)
+        AddHandler chkShowPassword.CheckedChanged, AddressOf chkShowPassword_CheckedChanged
+        panelRegis.Controls.Add(chkShowPassword)
+
         ' 
         ' btnRegister
         ' 
         btnRegister.BackColor = Color.Gold
         btnRegister.FlatStyle = FlatStyle.Flat
         btnRegister.Font = New Font("Segoe UI", 10.0F, FontStyle.Bold)
-        btnRegister.Location = New Point(30, 160)
+        btnRegister.Location = New Point(30, 175)
         btnRegister.Name = "btnRegister"
         btnRegister.Size = New Size(150, 40)
         btnRegister.TabIndex = 2
@@ -65,7 +76,7 @@ Partial Class formRegis
         btnToLogin.BackColor = Color.LightSkyBlue
         btnToLogin.FlatStyle = FlatStyle.Flat
         btnToLogin.Font = New Font("Segoe UI", 10.0F, FontStyle.Bold)
-        btnToLogin.Location = New Point(220, 160)
+        btnToLogin.Location = New Point(220, 175)
         btnToLogin.Name = "btnToLogin"
         btnToLogin.Size = New Size(150, 40)
         btnToLogin.TabIndex = 3
@@ -142,4 +153,6 @@ Partial Class formRegis
     Friend WithEvents lblTitle As Label
     Friend WithEvents picLogo As PictureBox
     Friend WithEvents panelRegis As Panel
+    Friend WithEvents chkShowPassword As CheckBox
+
 End Class

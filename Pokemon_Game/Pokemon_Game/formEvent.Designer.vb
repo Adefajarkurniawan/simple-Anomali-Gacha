@@ -74,7 +74,7 @@ Partial Class formEvent
         btnPilih.Name = "btnPilih"
         btnPilih.Size = New Size(94, 29)
         btnPilih.TabIndex = 4
-        btnPilih.Text = "Button1"
+        btnPilih.Text = "Pilih"
         btnPilih.UseVisualStyleBackColor = False
         ' 
         ' btnSave
@@ -85,7 +85,7 @@ Partial Class formEvent
         btnSave.Name = "btnSave"
         btnSave.Size = New Size(94, 29)
         btnSave.TabIndex = 5
-        btnSave.Text = "Button1"
+        btnSave.Text = "Save"
         btnSave.UseVisualStyleBackColor = False
         ' 
         ' Button2

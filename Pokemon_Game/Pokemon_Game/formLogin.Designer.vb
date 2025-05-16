@@ -47,13 +47,25 @@ Partial Class formLogin
         txtPassword.PasswordChar = "*"c
         txtPassword.Size = New Size(300, 30)
         txtPassword.TabIndex = 1
+
+        '
+        ' Tambahkan di panelLogin.Controls
+        '
+        chkShowPassword = New CheckBox()
+        chkShowPassword.Text = "Lihat Password"
+        chkShowPassword.Font = New Font("Segoe UI", 9.0F)
+        chkShowPassword.Location = New Point(30, 145)
+        chkShowPassword.Size = New Size(150, 20)
+        AddHandler chkShowPassword.CheckedChanged, AddressOf chkShowPassword_CheckedChanged
+        panelLogin.Controls.Add(chkShowPassword)
+
         ' 
         ' btnLogin
         ' 
         btnLogin.BackColor = Color.Gold
         btnLogin.FlatStyle = FlatStyle.Flat
         btnLogin.Font = New Font("Segoe UI", 10.0F, FontStyle.Bold)
-        btnLogin.Location = New Point(30, 160)
+        btnLogin.Location = New Point(30, 175)
         btnLogin.Name = "btnLogin"
         btnLogin.Size = New Size(130, 40)
         btnLogin.TabIndex = 2
@@ -65,7 +77,7 @@ Partial Class formLogin
         btnToRegister.BackColor = Color.LightSkyBlue
         btnToRegister.FlatStyle = FlatStyle.Flat
         btnToRegister.Font = New Font("Segoe UI", 10.0F, FontStyle.Bold)
-        btnToRegister.Location = New Point(200, 160)
+        btnToRegister.Location = New Point(200, 175)
         btnToRegister.Name = "btnToRegister"
         btnToRegister.Size = New Size(130, 40)
         btnToRegister.TabIndex = 3
@@ -101,7 +113,7 @@ Partial Class formLogin
         lblTitle.Name = "lblTitle"
         lblTitle.Size = New Size(323, 41)
         lblTitle.TabIndex = 4
-        lblTitle.Text = "Pokémon Gacha Login"
+        lblTitle.Text = "Anomali Gacha Login"
         lblTitle.TextAlign = ContentAlignment.MiddleCenter
         ' 
         ' picLogo
@@ -143,4 +155,6 @@ Partial Class formLogin
     Friend WithEvents panelLogin As Panel
     Friend WithEvents lblUser As Label
     Friend WithEvents lblPass As Label
+    Friend WithEvents chkShowPassword As CheckBox
+
 End Class

@@ -45,14 +45,6 @@ Public Class formAdmin
         Me.Close()
     End Sub
 
-    Private Sub btnCrudPack_Click(sender As Object, e As EventArgs) Handles btnCrudPack.Click
-        formCrudPack.Show
-    End Sub
-
-    Private Sub btnCrudCard_Click(sender As Object, e As EventArgs) Handles btnCrudCard.Click
-        MessageBox.Show("Gagal mengambil statistik: ")
-    End Sub
-
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         tambahKartu.Show()
     End Sub

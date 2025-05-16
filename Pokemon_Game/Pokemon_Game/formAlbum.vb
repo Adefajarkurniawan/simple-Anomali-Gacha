@@ -59,6 +59,16 @@ Public Class formAlbum
                     .Location = New Point(15, 115)
                 }
 
+                Dim lblJumlah As New Label With {
+                    .Text = "Jumlah: " & RD("Jumlah_Kartu").ToString(),
+                    .Font = New Font("Segoe UI", 9.0F, FontStyle.Italic),
+                    .ForeColor = Color.DarkGreen,
+                    .AutoSize = False,
+                    .TextAlign = ContentAlignment.MiddleCenter,
+                    .Size = New Size(120, 20),
+                    .Location = New Point(15, 195)
+                }
+
                 Dim lblType As New Label With {
                     .Text = "Type: " & RD("type").ToString(),
                     .Font = New Font("Segoe UI", 9.0F),
@@ -80,20 +90,12 @@ Public Class formAlbum
                     .Location = New Point(15, 170)
                 }
 
-                Dim lblJumlah As New Label With {
-                    .Text = "Jumlah: " & RD("Jumlah_Kartu").ToString(),
-                    .Font = New Font("Segoe UI", 9.0F, FontStyle.Italic),
-                    .ForeColor = Color.DarkGreen,
-                    .AutoSize = False,
-                    .TextAlign = ContentAlignment.MiddleCenter,
-                    .Size = New Size(120, 20),
-                    .Location = New Point(15, 195)
-                }
+
 
                 cardPanel.Controls.Add(pb)
                 cardPanel.Controls.Add(lblName)
-                cardPanel.Controls.Add(lblType)
                 cardPanel.Controls.Add(lblKategori)
+                cardPanel.Controls.Add(lblType)
                 cardPanel.Controls.Add(lblJumlah)
                 pnlCardAlbum.Controls.Add(cardPanel)
             End While
@@ -127,7 +129,7 @@ Public Class formAlbum
         Dim cardsPrinted As Integer = 0  ' Kartu yang sudah dicetak pada halaman ini
 
         ' Header
-        e.Graphics.DrawString("Daftar Kartu Pokémon Saya", Fheader, Brushes.Black, x, y)
+        e.Graphics.DrawString("Daftar Kartu Pokémon " & currentUsername, Fheader, Brushes.Black, x, y)
         y += 40
         e.Graphics.DrawLine(New Pen(Color.Black, 2), x, y, e.PageBounds.Width - 50, y)
         y += 20

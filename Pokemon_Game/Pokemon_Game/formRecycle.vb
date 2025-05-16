@@ -115,7 +115,7 @@ Public Class formRecycle
                 }
 
                 Dim lblType As New Label With {
-                    .Text = "Type: " & card("type"),
+                    .Text = "Jumlah: " & card("jumlah_kartu"),
                     .Font = New Font("Segoe UI", 9.0F),
                     .ForeColor = Color.DarkBlue,
                     .AutoSize = False,

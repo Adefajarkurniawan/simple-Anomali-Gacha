@@ -14,8 +14,6 @@ Partial Class formAdmin
         btnTopup = New Button()
         Button2 = New Button()
         Button1 = New Button()
-        btnCrudPack = New Button()
-        btnCrudCard = New Button()
         pnlMain = New Panel()
         lblTitle = New Label()
         lblStat1 = New Label()
@@ -64,7 +62,7 @@ Partial Class formAdmin
         lblHeader.Name = "lblHeader"
         lblHeader.Size = New Size(1200, 60)
         lblHeader.TabIndex = 0
-        lblHeader.Text = "Admin Dashboard - Pokémon Gacha"
+        lblHeader.Text = "Admin Dashboard - Anomali Gacha"
         lblHeader.TextAlign = ContentAlignment.MiddleCenter
         ' 
         ' pnlSidebar
@@ -75,8 +73,6 @@ Partial Class formAdmin
         pnlSidebar.Controls.Add(btnTopup)
         pnlSidebar.Controls.Add(Button2)
         pnlSidebar.Controls.Add(Button1)
-        pnlSidebar.Controls.Add(btnCrudPack)
-        pnlSidebar.Controls.Add(btnCrudCard)
         pnlSidebar.Location = New Point(0, 60)
         pnlSidebar.Name = "pnlSidebar"
         pnlSidebar.Size = New Size(250, 640)
@@ -112,7 +108,7 @@ Partial Class formAdmin
         btnTopup.BackColor = Color.Gold
         btnTopup.FlatStyle = FlatStyle.Popup
         btnTopup.Font = New Font("Comic Sans MS", 11.25F, FontStyle.Bold)
-        btnTopup.Location = New Point(15, 288)
+        btnTopup.Location = New Point(15, 261)
         btnTopup.Name = "btnTopup"
         btnTopup.Size = New Size(220, 40)
         btnTopup.TabIndex = 5
@@ -124,7 +120,7 @@ Partial Class formAdmin
         Button2.BackColor = Color.Gold
         Button2.FlatStyle = FlatStyle.Popup
         Button2.Font = New Font("Comic Sans MS", 11.25F, FontStyle.Bold)
-        Button2.Location = New Point(15, 242)
+        Button2.Location = New Point(14, 177)
         Button2.Name = "Button2"
         Button2.Size = New Size(220, 40)
         Button2.TabIndex = 4
@@ -136,36 +132,12 @@ Partial Class formAdmin
         Button1.BackColor = Color.Gold
         Button1.FlatStyle = FlatStyle.Popup
         Button1.Font = New Font("Comic Sans MS", 11.25F, FontStyle.Bold)
-        Button1.Location = New Point(15, 196)
+        Button1.Location = New Point(15, 95)
         Button1.Name = "Button1"
         Button1.Size = New Size(220, 40)
         Button1.TabIndex = 3
         Button1.Text = ChrW(55358) & ChrW(56809) & " Tambah Card"
         Button1.UseVisualStyleBackColor = False
-        ' 
-        ' btnCrudPack
-        ' 
-        btnCrudPack.BackColor = Color.Gold
-        btnCrudPack.FlatStyle = FlatStyle.Popup
-        btnCrudPack.Font = New Font("Comic Sans MS", 11.25F, FontStyle.Bold)
-        btnCrudPack.Location = New Point(15, 100)
-        btnCrudPack.Name = "btnCrudPack"
-        btnCrudPack.Size = New Size(220, 40)
-        btnCrudPack.TabIndex = 0
-        btnCrudPack.Text = ChrW(55358) & ChrW(56809) & " Kelola Packs"
-        btnCrudPack.UseVisualStyleBackColor = False
-        ' 
-        ' btnCrudCard
-        ' 
-        btnCrudCard.BackColor = Color.Gold
-        btnCrudCard.FlatStyle = FlatStyle.Popup
-        btnCrudCard.Font = New Font("Comic Sans MS", 11.25F, FontStyle.Bold)
-        btnCrudCard.Location = New Point(15, 150)
-        btnCrudCard.Name = "btnCrudCard"
-        btnCrudCard.Size = New Size(220, 40)
-        btnCrudCard.TabIndex = 1
-        btnCrudCard.Text = "🎴 Kelola Cards"
-        btnCrudCard.UseVisualStyleBackColor = False
         ' 
         ' pnlMain
         ' 
@@ -229,7 +201,7 @@ Partial Class formAdmin
         Controls.Add(pnlHeader)
         Controls.Add(pnlSidebar)
         Controls.Add(pnlMain)
-        Font = New Font("Comic Sans MS", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Font = New Font("Comic Sans MS", 9.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         FormBorderStyle = FormBorderStyle.None
         MaximizeBox = False
         Name = "formAdmin"
@@ -244,8 +216,6 @@ Partial Class formAdmin
     Friend WithEvents pnlHeader As Panel
     Friend WithEvents lblHeader As Label
     Friend WithEvents pnlSidebar As Panel
-    Friend WithEvents btnCrudPack As Button
-    Friend WithEvents btnCrudCard As Button
     Friend WithEvents pnlMain As Panel
     Friend WithEvents lblTitle As Label
     Friend WithEvents lblStat1 As Label
